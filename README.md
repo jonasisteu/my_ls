@@ -46,6 +46,13 @@ Bienvenue dans **My LS**, une implémentation en C de la commande `ls` du shell 
   ./my_ls -l -a -t
   ```
 
+  **OU** 
+  
+  ...les écrire ensemble sur le même argument :
+  ```bash
+  ./my_ls -lat
+  ```
+
 ---
 
 ## 🧪 Utilisation
@@ -69,4 +76,3 @@ Une fois compilé, l'exécutable `my_ls` peut être utilisé de la même manièr
 ## 💻 Environnement
 
 Ce projet a été développé pour fonctionner principalement sous **Debian 12**. Cependant, il est indiqué qu'il fonctionne également sous **macOS**, en supposant que les librairies standard du C utilisées soient compatibles entre les systèmes.
-```
